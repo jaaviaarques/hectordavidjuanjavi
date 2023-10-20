@@ -10,8 +10,9 @@ body {
 }
 
 .div1 {
-    width:100%;
+    width:"100%";
     background-color:blue;
+    text-align:center;
 }
     
 
