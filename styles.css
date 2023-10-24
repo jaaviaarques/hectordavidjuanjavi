@@ -1,20 +1,10 @@
-body { 
-	color:blue
-	text-family:arial
-
-}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #172A3A;
+  background-color: #333;
 }
-
-.active {
-  background-color: #09BC8A;
-}
-
 
 li {
   float: left;
@@ -28,9 +18,8 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #004346;
+  background-color: #111;
 }
 
     
