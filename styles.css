@@ -1,18 +1,65 @@
 body { 
-    background-color:red;
+	color:blue
+	text-family:arial
+
 }
-h1 {
-    font-family:Cambria;
-    color:black;
-}
-body {
-    font-family:Rubik, sans-serif;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #172A3A;
 }
 
-.div1 {
-    width:"100%";
-    background-color:blue;
-    text-align:"center";
+.active {
+  background-color: #09BC8A;
 }
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #004346;
+}ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #172A3A;
+}
+
+.active {
+  background-color: #09BC8A;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #004346;
+}
+
     
 
