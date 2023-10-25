@@ -35,3 +35,6 @@ p.title2 {
   font-family: Spectral, serif;
   font-size: 30px;
 }
+h1.one {
+  padding: 20px 30px; 
+}
