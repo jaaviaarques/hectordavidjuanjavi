@@ -35,6 +35,17 @@ p.title2 {
   font-family: Spectral, serif;
   font-size: 30px;
 }
+.column {
+   float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+.fooster { 
+   background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
 h1.one {
   padding: 20px 30px; 
 }
