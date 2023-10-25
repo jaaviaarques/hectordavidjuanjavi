@@ -25,4 +25,8 @@ li a:hover {
   border: 0px;
 }
     
-
+p.title {
+  align: center;
+  font-family: Spectral, serif;
+  font-size: 50px;
+}
