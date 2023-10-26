@@ -60,3 +60,14 @@ div.javidivs {
   text-align: left;
   font-family: Spectral, serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
