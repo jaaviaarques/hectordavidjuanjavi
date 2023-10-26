@@ -49,5 +49,10 @@ p.title2 {
 h1.one {
   padding: 20px 30px; 
 }
+p{
+  text-align:left
+  font-family:Rubik;
+  font-size:20px;
+}
 
 https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_architect&stacked=h
