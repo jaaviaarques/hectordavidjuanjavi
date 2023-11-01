@@ -109,3 +109,39 @@ body {
   .column {
     width: 100%;
   }
+
+  container {
+            display: flex;
+            align-items: center;
+			margin: 200px
+			
+			
+        }
+        .left-side {
+            flex: 1;
+            text-align: center;
+        }
+        .right-side {
+            flex: 1;
+            text-align: center;
+			margin: 20px;
+        }
+        .title {
+            font-size: 50px;
+        }
+        .paragraph {
+            text-align: center;
+			font-size: 25px;
+        }
+        .button {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 28px;
+            margin: 15px 0;
+        }
+        .button:hover {
+            background-color: grey;
+        }
