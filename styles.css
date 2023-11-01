@@ -72,43 +72,6 @@ body {
   clear: both;
 
 
-  
-* {
-  box-sizing: border-box;
-}
-
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-}
-
-
-.column2 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
 
   container {
             display: flex;
