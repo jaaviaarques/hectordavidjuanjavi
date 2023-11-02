@@ -1,3 +1,8 @@
+
+* {
+  box-sizing: border-box;
+}
+
 .navegacion {
   background-color: #333;
   color: white;
