@@ -231,3 +231,45 @@ body {
 
       }
 
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column11 {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.column12 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
