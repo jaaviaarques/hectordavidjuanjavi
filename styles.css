@@ -244,9 +244,17 @@ body {
   float: left;
   width: 40%;
   padding: 10px;
+  font-size: 20px;
   height: 300px; 
 }
 
+.column13 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  font-size: 20px;
+  height: 300px; 
+}
 .column12 {
   float: left;
   width: 60%;
@@ -266,6 +274,7 @@ body {
   padding: 10px;
   text-align: center;
 }
+
 
 
 @media (max-width: 600px) {
