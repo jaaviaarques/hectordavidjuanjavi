@@ -97,7 +97,7 @@ p.hey{
 .container2{
     max-width: 100%;
     margin: auto;
-    background-image: url("imagen/madera.jpg");
+    background-image: url("images/madera.jpg");
     color: white;
     width: 100%;
     padding: 80px 80px 200px 80px;
@@ -131,7 +131,7 @@ p.colo{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5) 
     )
-    ,url("imagen/madera3.jpg");
+    ,url("images/madera3.jpg");
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -154,7 +154,7 @@ p.colo{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5) 
     )
-    ,url("imagen/madera\ 2.jpg");
+    ,url("images/madera\ 2.jpg");
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -176,7 +176,7 @@ p.colo{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5) 
     )
-    ,url("imagen/madera4.jpg");
+    ,url("images/madera4.jpg");
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -263,7 +263,7 @@ img.aparece{
 
 .mike{
     width: 100%;
-    background-image: url("imagen/madera.jpg");
+    background-image: url("images/madera.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,7 +294,7 @@ img.aparece{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5) 
     )
-    ,url("imagen/madera4.avif");
+    ,url("images/madera4.avif");
     color: white;
 }
 
