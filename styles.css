@@ -308,7 +308,7 @@ img.aparece{
     justify-content: center;
     align-items: center;
     padding: 250px;
-    gap: 50px;
+    gap: 25px;
     font-size: 25px;
     
     
@@ -349,7 +349,7 @@ button.final{
 }
 
 button.final:hover{
-    background-image: url(imagen/WOW.gif);
+    background-image: url(images/WOW.gif);
     transform: scale(1.2);
 }
 
