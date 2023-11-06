@@ -580,7 +580,11 @@ body {
 }
 
 .javifont {
-	font-size: 30px
+	font-size: 30px;
+	text-align: center;
+	font-family: Cambria;
+}
+	
 
 
 
