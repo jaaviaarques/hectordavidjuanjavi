@@ -604,6 +604,7 @@ body {
 	font-family:Spectral,serif;
 	background-image: url("images/madera.jpg");
 	width:100%;
+	padding:20px;
 }
 
 .divh2 {
@@ -612,6 +613,7 @@ body {
 	background-color: white;
 	width:100%;
 	color:black;
+	padding:20px;
 }
 	
 
