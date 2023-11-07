@@ -244,7 +244,7 @@ li.nol{
     font-weight: bold;
 }
 
-img.aparece{
+img.aparece:hover{
     animation: fadeIn 3s ease;
 }
 
@@ -307,7 +307,7 @@ img.aparece{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 200px 100px;
     gap: 25px;
     font-size: 25px;
     
@@ -315,7 +315,7 @@ img.aparece{
 }
 
 .titulo{
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .objeto{
