@@ -299,6 +299,7 @@ img.aparece:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+box-shadow: 5px 5px 5px 5px black;
     background-image: linear-gradient(
         0deg,
     rgba(0,0,0,0.5),
