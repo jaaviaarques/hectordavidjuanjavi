@@ -320,7 +320,7 @@ img.aparece:hover{
 }
 
 .objeto{
-    max-width: 400px;
+    max-width: 350px;
     height: 600px;
     display: flex;
     flex-direction: column;
