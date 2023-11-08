@@ -598,7 +598,9 @@ body {
   float: left;
   width: 60%;
   padding: 10px;
-  height: 300px; 
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .javifont {
