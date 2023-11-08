@@ -318,16 +318,15 @@ box-shadow: 5px 5px 5px 5px black;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 200px 0px 200px 0px;
     gap: 25px;
-    font-size: 25px;
-    marging:5px;
     
     
 }
 
 .titulo{
     padding-right: 5px;
+	margin:0px;
 }
 
 .objeto{
@@ -366,7 +365,7 @@ button.final:hover{
 }
 
 .textf {
-    font-size: size 60px;
+    font-size:60px;
     white-space: nowrap;
 
 }
