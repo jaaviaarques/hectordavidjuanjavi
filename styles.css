@@ -342,6 +342,10 @@ box-shadow: 5px 5px 5px 5px black;
     gap: 70px;
 }
 
+.objeto:hover{
+    transform: scale(1.1);
+}
+
 img.compra{
     border-bottom: 1px solid black;
     padding-bottom: 20px ;
@@ -365,7 +369,7 @@ button.final:hover{
 }
 
 .textf {
-    font-size:60px;
+    font-size:25px;
     white-space: nowrap;
 
 }
