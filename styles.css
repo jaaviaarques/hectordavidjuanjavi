@@ -324,5 +324,19 @@ button.final:hover{
     white-space: nowrap;
 
 }	
-    
+
+divh2 {
+	font-size:30px;
+	font-family: Spectral, serif;
+	background-color:white;
+	padding:20px;
+}
+
+	divh {
+	font-size:30px;
+	font-family: Spectral, serif;
+	background-color: #cc8534;
+	padding:20px;
+	color:white;
+}
     
