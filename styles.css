@@ -312,8 +312,6 @@ button.final{
     
 }
 
-
-
 button.final:hover{
     background-image: url(imagen/WOW.gif);
     transform: scale(1.2);
