@@ -172,7 +172,8 @@ p.colo{
 .carta:hover{
     transform: scale(1.2);
 }
-button{
+button.boton1{
+
     font-size: 20px;
     font-weight: bold;
     padding: 10px 30px;
@@ -182,7 +183,8 @@ button{
     color: white;
     background-color: rgb(222,184,135);
 }
-button:hover{
+
+button.boton1:hover{
     background-color:rgb(139,69,19) ;
     color: white;
 }
