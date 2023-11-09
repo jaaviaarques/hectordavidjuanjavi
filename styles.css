@@ -305,14 +305,17 @@ button.final{
     
     font-size: 20px;
     font-weight: bold;
-    padding: 10px 30px;
     border-radius: 5px;
     border: 2px solid #4CBB17;
     box-shadow: 2px 2px 10px #009000;
     color: white;
     background-color: #00FF40;
+    padding: 20px;
     
 }
+
+
+
 
 button.final:hover{
     background-image: url(images/WOW.gif);
