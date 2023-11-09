@@ -58,8 +58,13 @@ header .a1{
     font-size: 20px;
 }
 header a:hover{
-    background-color:rgb(128,0,0) ;
-    color: whitesmoke;
+    background-color: transparent;
+    color: rgb(139,69,19);
+  border-color: rgb(222,184,135);
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: none;
 }
 .container1{
     max-width: 1400px;
@@ -460,3 +465,230 @@ divh2 {
     background-color: FFCBA0;
 }
 
+.fmenu{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 300px 50px;
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.fimagen{
+    width: 700px;
+    height: 394px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.ftexto{
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+    gap: 20px;
+    align-items: initial;
+    
+    
+
+}
+
+h1.ftitulo{
+    margin: 0%;
+   
+    border-bottom: 1px solid black;
+    width:fit-content;
+    white-space: nowrap;
+    
+}
+
+p.fp{
+    font-size: 20px;
+    
+}
+
+button.fboton{ 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgba (0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(222,184,135);
+    width: fit-content;
+    white-space: nowrap;
+    -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button.fboton:hover{
+    background-color: transparent;
+    color: rgb(139,69,19);
+  border-color: rgb(222,184,135);
+  box-shadow: none;
+}
+
+.contenedorefct{
+    width: 100%;
+    background-color: #d6d5cb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.subcontenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px;
+}
+
+
+.efecto{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 8px solid white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.efecto:hover{
+    transform: scale(1.1);
+}
+.img-efecto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-bodytexto{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;    
+}
+
+.efecto:hover .card-bodytexto{
+    right: 0;
+}
+
+.card-tilte{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 40px;
+    text-align: left;
+
+}
+
+
+.card-subtitle{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0%;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.card-informarcion{
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0px;
+    font-weight: 400;
+    text-align:left
+}
+
+
+
+p.textocentral{
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 2px 2px;
+    border-bottom:6px solid white;
+    width: fit-content;
+    
+    
+}
+
+	li.flista{
+    padding: 5px;
+     font-size: 18px;
+
+ }
+
+ .container-lista{
+    max-width: 900px;
+    height: fit-content;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: initial;
+    justify-content: center;
+    margin-top: 20px;
+
+ }
+
+ img.fimagenfinal{
+    width: 500px;
+    height: 700px;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    justify-content: center;
+
+ }
+
+ .ftexto5{
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+    gap: 50px;
+    margin-top: 100px;
+   
+
+ }
+
+ button.butondecompra{
+    
+        font-size: 28px;
+        font-weight: bold;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: 2px solid #4CBB17;
+        box-shadow: 2px 2px 10px #009000;
+        color: white;
+        background-color: #00FF40;
+        width: fit-content;
+        margin: 50px 220px;
+        
+        
+    }
+    
+    
+    
+    button.butondecompra:hover{
+        background-image: url(images/WOW.gif);
+        transform: scale(1.2);
+    }
