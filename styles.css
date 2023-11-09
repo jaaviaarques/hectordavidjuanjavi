@@ -1,14 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
 *, html {
-
     scroll-behavior: smooth !important;
 }
-
-
-
 .container{
     max-width: 1400px;
     margin: auto;
@@ -18,7 +13,6 @@
     margin: auto;
 	padding: 60px;
 }
-
 body{
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,7 +30,6 @@ header {
     
     }
    
-
  header .logo{
     margin: 0;
     font-size: 25px;
@@ -46,40 +39,28 @@ header {
     text-decoration: none;
     color: rgb(205,133,63);
  }   
-
  header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
 	
  }
-
  header nav{
     display: flex;
     flex-direction: row;
     gap: 12px;
       }
-
 header .a1{
     text-decoration: none;
     color: rgb(205,133,63);
     font-size: 20px;
-
 }
-
 header a:hover{
-   background-color: transparent;
-    color: rgb(139,69,19);
-  border-color: rgb(222,184,135);
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 5px;
-  box-shadow: none;
+    background-color:rgb(128,0,0) ;
+    color: whitesmoke;
 }
-
 .container1{
     max-width: 1400px;
     margin: auto;
@@ -91,10 +72,6 @@ header a:hover{
     
     
 }
-
-
-
-
 .parrafo {
     display: flex;
     flex-direction: column;
@@ -102,15 +79,10 @@ header a:hover{
     text-align: initial;
     max-width: 600px;
     padding-left: 50px;
-
-
 }
-
 p.hey{
     font-size: 20px;
 }
-
-
 .container2{
     max-width: 100%;
     margin: auto;
@@ -121,18 +93,6 @@ p.hey{
     text-align: center;
    
 }
-.container20{
-    max-width: 100%;
-    margin: auto;
-    
-    color: white;
-    width: 100%;
-    padding: 80px 80px 200px 80px;
-    text-align: center;
-   
-}
-
-
 p.colo{
     color: black;
     border: 1px solid black;
@@ -140,7 +100,6 @@ p.colo{
     border-radius: 5px;
     font-size: 40px;
 }
-
 .ejemplo{
     display: flex;
     justify-content: center;
@@ -148,7 +107,6 @@ p.colo{
     padding-top: 100px;
    
 }
-
 .carta:first-child{
     max-width: 300px;
     height: 400px;
@@ -168,23 +126,9 @@ p.colo{
     border-radius: 15px;
     padding:0 10px;
     border: 1px solid white;
-}
-
-   .carta1:
-   {
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    padding:0 10px;
-    border: 1px solid white;
+   
     
 }
-
 .carta:nth-child(2){
       max-width: 300px;
       background-image: linear-gradient(
@@ -206,7 +150,6 @@ p.colo{
     gap: 30px;
   
 }
-
 .carta:nth-child(3){
     max-width: 300px;
     background-image: linear-gradient(
@@ -225,15 +168,11 @@ p.colo{
     border-radius: 15px;
     padding:0 10px;
     border: 1px solid white;
-
 }
-
 .carta:hover{
     transform: scale(1.2);
 }
-
 button{
-
     font-size: 20px;
     font-weight: bold;
     padding: 10px 30px;
@@ -243,19 +182,14 @@ button{
     color: white;
     background-color: rgb(222,184,135);
 }
-
 button:hover{
     background-color:rgb(139,69,19) ;
     color: white;
 }
-
-
-
 ul{
     list-style: none;
     
 }
-
 .nevo{
     width: 100%;
     display: flex;
@@ -264,7 +198,6 @@ ul{
     gap: 200px;
     align-items: center;
 }
-
 .nuevo{
     display: flex;
     flex-direction: column;
@@ -275,17 +208,14 @@ ul{
     border-radius: 5px;
     padding: 10px 40px 20px 10px;
 }
-
 li.nol{
    padding-top: 15px;
     font-size: 20px;
     font-weight: bold;
 }
-
 img.aparece:hover{
     animation: fadeIn 3s ease;
 }
-
 @keyframes fadeIn {
     0% { opacity: 0;
     filter: blur(20px)
@@ -294,11 +224,7 @@ img.aparece:hover{
         opacity: 1;
         filter:brightness(2) blur(10px)
     }
-
-
-
-
-
+}
 .mike{
     width: 100%;
     background-image: url("images/madera.jpg");
@@ -309,7 +235,6 @@ img.aparece:hover{
     gap: 50px;
     align-items: center;
 }
-
 .switch{
     width: auto;
     display: flex;
@@ -319,7 +244,6 @@ img.aparece:hover{
     border-radius: 5px;
    
 }
-
 .texto{
     text-align:initial;
     padding-left: 5px;
@@ -336,399 +260,16 @@ box-shadow: 5px 5px 5px 5px black;
     ,url("images/madera4.avif");
     color: white;
 }
-
 .texto:hover{
     transform: scale(1.1);
 }
-
 .tienda{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 200px 0px 200px 0px;
-    gap: 25px;
+    gap: 50px;
+    font-size: 25px;
     
     
-}
-
-.titulo{
-    padding-right: 5px;
-	margin:0px;
-}
-
-.objeto{
-    max-width: 300px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 80px 80px 80px;
-    border: 1px solid black;
-    border-radius: 7px;
-    gap: 70px;
-}
-
-.objeto:hover{
-    transform: scale(1.1);
-}
-
-img.compra{
-    border-bottom: 1px solid black;
-    padding-bottom: 20px ;
-}
-
-button.final{
-    
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 2px solid #4CBB17;
-    box-shadow: 2px 2px 10px #009000;
-    color: white;
-    background-color: #00FF40;
-}
-
-button.final:hover{
-    background-image: url(images/WOW.gif);
-    transform: scale(1.2);
-}
-
-.textf {
-    font-size:25px;
-    white-space: nowrap;
-
-}
-
-
-
-
-
-
-
-td.javitabla {
-  width: 50%;
-}
-    
-h1.title {
-  text-align: center;
-  font-family: Spectral, serif;
-  font-size: 50px;
-}
-p.title2 {
-   text-align: center;
-  font-family: Spectral, serif;
-  font-size: 25px;
-  text-decoration-line:underline;
-}
-.column {
-   float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-
-h1.one {
-  padding: 20px 30px; 
-}
-p{
-  font-family:Rubik;
-  font-size:17px;
-}
-
-div.javidivs {
-  text-align: left;
-  font-family: Spectral, serif;
-}
-h2.david {
-  text-align: center;
-  font-family: Spectral, serif;
-  font-size: 50px;
-  padding-top: 70px;
-}
-
-body {
-  background-color: white;
-}
-
-
-
-
-  container {
-            display: flex;
-            align-items: center;
-			margin: 200px
-			
-			
-        }
-        .left-side {
-            flex: 1;
-            text-align: center;
-        }
-        .right-side {
-            flex: 1;
-            text-align: center;
-			margin: 20px;
-        }
-        .title {
-            font-size: 50px;
-        }
-        .paragraph {
-            text-align: center;
-			font-size: 25px;
-        }
-          .contenedor2 {
-        width:100%
-        height: auto;
-        display: flex;
-        margin-top:160px;
-        
-        
-        
-        
-    
-    }
-    
-    .box3 {
-        width:50%;
-        height:auto;
-        text-align: center;
-        background-color:white;
-        margin-left: 26px;
-        
-    }
-    
-    .titol {
-        font-size:45px;
-
-    }
-    
-    .pa1 {
-        font-size:20px;
-        padding: 9px;
-        font-family:sans-serif;
-        text-align: center;
-        }
-        
-        
-
-        .boton {
-  display: inline-block;
-  background-color: transparent;
-  color: #3498db;
-  border: 2px solid #3498db;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  margin-top:5px;
-  font-size: 20px;
-
-}
-
-.boton:hover {
-  background-color: #3498db;
-  color: white;
-  
-}
-
-    .box4 {
-        width:50%;
-        height:auto;
-        text-align: center;
-    }
-
-    .img2 {
-        text-align: center;
-    }
-
-    .contenedor-imagenes {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  gap: 200px;
-  height: 450px;
-  border-bottom: 4px solid black;
-
-    }
-
-        .img1 {
-            width: 300px;
-            height: 400px;
-            border: 2px solid  gray;
-             border-radius: 12px;
-
-        }
-
-        .box5 {
-            text-align:center;
-            width: 100%;
-            height:auto;
-            gap: 420px;
-            margin-top: 200px;
-            background-color: #333;
-            display:flex;
-            padding-left: 240px;
-            
-        }
-
-        .h2m {
-            text-align: center;
-            color:white;
-        }
-
-        .a2{
-            text-decoration: none;
-        }
-
-       .cont2{
-        width: 100%;
-        height: 500px;
-        border-bottom: 3px solid black;
-        margin-top: 30px;
-        background-color: gray;
-        padding-top: 100px;
-        padding-left: 30px;
-        
-        
-       
-
-      }
-
-      .box6 {
-        width: 50%;
-        height: 400px;
-        background-color: white;
-     
-
-
-      }
-
-
-
-
-.column11 {
-  float: left;
-  width: 40%;
-  padding: 10px;
-  font-size: 20px;
-  height: 300px; 
-}
-
-.column13 {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  font-size: 20px;
-  height: 300px; 
-}
-.column12 {
-  float: left;
-  width: 60%;
-  padding: 10px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-}
-
-.javifont {
-	font-size: 20px;
-	text-align: center;
-	font-family: Cambria;
-}
-
-.divh {
-	font-size:20px;
-	font-family:Spectral,serif;
-	background-color:#976c18;
-	width:100%;
-	padding:20px;
-	color:white;
-	margin:20px;
-}
-
-.divh2 {
-	font-size:20px;
-	font-family:Spectral,serif;
-	background-color: white;
-	width:100%;
-	color:black;
-	padding:20px;
-	margin:20px;
-}
-.fmenu{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    padding: 300px 50px;
-    gap: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img.fimagen{
-    width: 700px;
-    height: 394px;
-    border: 2px solid whitesmoke;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-}
-
-.ftexto{
-    display: flex;
-    flex-direction: column;
-    align-items: initial;
-    max-width: 500px;
-    gap: 20px;
-    
-
-}
-
-h1.ftitulo{
-    margin: 0%;
-    text-align: initial;
-    border-bottom: 1px solid black;
-    width:fit-content;
-}
-
-p.fp{
-    font-size: 20px;
-    text-align: initial;
-}
-
-button.fboton{ 
-    font-size: 18px;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 5px;
-    border: 2px solid rgba (0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: rgb(222,184,135);
-    width: fit-content;
-    white-space: nowrap;
-    -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-button.fboton:hover{
-    background-color: transparent;
-    color: rgb(139,69,19);
-  border-color: rgb(222,184,135);
-  box-shadow: none;
-}
-
-
-
-	
-
-
-
-
-
-
-
