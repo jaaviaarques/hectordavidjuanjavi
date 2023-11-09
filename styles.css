@@ -271,5 +271,58 @@ box-shadow: 5px 5px 5px 5px black;
     padding: 200px 0px 200px 0px;
     gap: 50px;
     font-size: 25px;
+
+.titulo{
+    padding-right: 5px;
+    margin: 0%;
+}
+
+.objeto{
+    max-width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px 80px 80px;
+    border: 1px solid black;
+    border-radius: 7px;
+    gap: 70px;
+}
+
+.objeto:hover{
+    transform: scale(1.1);
+}
+
+img.compra{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px ;
+}
+
+button.final{
+    
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid #4CBB17;
+    box-shadow: 2px 2px 10px #009000;
+    color: white;
+    background-color: #00FF40;
+    
+}
+
+
+
+button.final:hover{
+    background-image: url(imagen/WOW.gif);
+    transform: scale(1.2);
+}
+
+.textf {
+    font-size: 25px;
+    white-space: nowrap;
+
+}	
     
     
