@@ -722,7 +722,7 @@ button.fboton:hover{
 .fcarac{
     width: 100%;
     padding: 200px 0px;
-    background-color:black;
+    background-color:white;
    
     
 }
@@ -775,7 +775,7 @@ button.fboton:hover{
 .carta1{
       width: 300px;
       height: 400px;
-     background-image: url("imagen/img2.jpg");
+     background-image: url("imagen/img2.jpg")
     background-position: center;
     background-size: cover;
     display: flex;
