@@ -17,7 +17,10 @@
 	align-items:center;
 	gap:20px
 }
-
+h1.title{
+	font-size:50px
+	font-family: Spectral,serif;
+}
 body{
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -711,13 +714,13 @@ p.textocentral{
     
     div.hat {
 	    padding: 20px;
-	    font-family: Spectral, serif;
-	    background-color: #F5A261;
+	    font-family: Rubik, sans-serif;
+	    background-color: #E39A62;
 	    font-size: 23px;
     }
   div.hat2 {
 	    padding: 20px;
-	    font-family: Spectral, serif;
+	    font-family: Rubik, sans-serif;
 	    background-color: white;
 	    font-size: 23px;
     }
