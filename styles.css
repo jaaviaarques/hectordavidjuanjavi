@@ -464,7 +464,9 @@ divh2 {
     gap: 70px;
     background-color: FFCBA0;
 }
-
+ul.a101 {
+  list-style-type: circle;
+}
 .fmenu{
     width: 100%;
     margin: auto;
