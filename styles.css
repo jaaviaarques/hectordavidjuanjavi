@@ -564,7 +564,7 @@ button.fboton:hover{
     background-color: #d6d5cb;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 0;
+    padding: 200px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -577,13 +577,13 @@ button.fboton:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    margin: 50px;
+    gap: 35px;
+    
 }
 
 
 .efecto{
-    width: 500px;
+    width: 430px;
     height: 300px;
     border-radius: 20px;
     border: 8px solid white;
