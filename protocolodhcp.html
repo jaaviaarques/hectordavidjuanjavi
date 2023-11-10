@@ -1,8 +1,9 @@
 <html lang="en">
+<body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dispositivos de la comunicacion</title>
+    <title>Protocolo dhcp</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
@@ -19,7 +20,7 @@
                <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/Dispositivosdelacomunicacion.html" class="a1">D. Comunicación</a>
                <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/firewall.html" class="a1">Firewall</a>
                <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/tipodecableado.html" class="a1">T.Cableado</a>
-               <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/redesinalambricas.html" class="a1">R. inalámbricas</a>
+               <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/redesinhalambricas.html" class="a1">R. inhalámbricas</a>
                <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/tienda.html" class="a1"> <span class="material-symbols-outlined">
                 shopping_cart_checkout
                 </span></a>
@@ -32,55 +33,119 @@
 <br>
 <br>
 </div>
-    <div class="container101">
-        <img  src="images/direccionmac.png" width="600px">
-        <div class="parrafo101">
-            <h1>Dirección MAC</h1>
-            <p class="hey">
-               La dirección MAC está presente en todos los dispositivos que cuentan 
-      con una tarjeta de red. Así pues, nuestro móvil, tablet, ordenador… tienen una. Nuevamente estamos ante un identificador único. Un número que cada fabricante asigna a un dispositivo en concreto. Es posible que un equipo tenga varias direcciones MAC. Un ejemplo puede ser un ordenador que tenga tarjeta de red para conectarnos por cable y también tarjeta Wi-Fi. Cada una de ellas tiene una dirección.
-Una dirección MAC, a diferencia de una dirección IP, contiene también letras. En total son 12 caracteres, 
-      entre números y letras, repartidos en 6 grupos. Cada uno de los grupos tiene dos.
-                   </p>
+    <div class="container1011">
+       <h1>PROTOCOLO DHCP</h1>
         </div>
 
     </div>
+ 
+        
+        <div class="container112">
+            <table class="tabledavid">
+  <tr >
+    <td class="tddavid">Qué es y para qué sirve este protocolo</td>
+    <td class="tddavid12"> El protocolo DHCP 
+        (Protocolo de configuración dinámica de host) o también conocido como «Dynamic Host Configuration
+         Protocol«, es un protocolo de red que utiliza una arquitectura cliente-servidor. Por tanto, 
+         tendremos uno o varios servidores DHCP y también uno o varios clientes, que se deberán comunicar
+          entre ellos correctamente para que el servidor DHCP brinde información a los diferentes clientes
+           conectados. Este protocolo se encarga de asignar de manera dinámica y automática una 
+           dirección IP, ya sea una dirección IP privada desde el router hacia los equipos de la red 
+           local, o también una IP pública por parte de un operador que utilice este tipo de protocolo 
+           para el establecimiento de la conexión. Cuando tenemos un servidor DHCP en funcionamiento, 
+           todas las direcciones IP que ha proporcionado a diferentes clientes se guardan en un listado 
+           donde se relaciona la IP que se le ha proporcionado (dirección lógica) y la dirección MAC (
+            dirección física de la tarjeta de red). Gracias a este listado, el servidor DHCP se asegura
+             de no proporcionar a dos equipos diferentes la misma dirección IP, lo que ocasiona un caos
+              en la red local. A medida que el servidor va asignando direcciones IP, también tiene 
+              en cuenta cuándo pasa un determinado tiempo y caducan, quedando libres para que otro 
+              cliente pueda obtener esta misma dirección IP. El servidor DHCP sabrá en todo momento 
+              quién ha estado en posesión de una dirección IP, cuánto tiempo ha estado, y cuándo se 
+              ha asignado a otro cliente.</td>
+    
+  </tr>
+  <tr >
+    <td class="tddavid">Funcionamiento y mensajes de intercambio</td>
+    <td class="tddavid12">La comunicación entre el servidor DHCP y los clientes DHCP que tengamos 
+        conectados en la red se realiza a través del protocolo UDP, un protocolo que ya conocemos 
+        de otros artículos y que es un protocolo no orientado a conexión. En el caso del servidor 
+        DHCP usamos el protocolo UDP puerto 67, en el caso de los clientes usamos el protocolo UDP 
+        en el puerto 68. Si tenemos un firewall bloqueando estos puertos, ya sea en el servidor o 
+        en el cliente, deberemos revisarlo y añadir una regla de aceptar para origen y/o destino 
+        estos puertos, de lo contrario el servicio no funcionará, y no podremos obtener las direcciones
+         IP automáticamente. Cuando conectamos un equipo por primera vez a la red no tiene direccionamiento 
+         IP, por tanto, deberemos «buscar» el servidor DHCP por toda la red, ya que tampoco tenemos 
+         información sobre el protocolo ARP en un primer momento. Por este motivo, lo primero que hará 
+         el cliente es enviar un DHCP DISCOVERY con dirección IP de origen 0.0.0.0 y dirección IP de 
+         destino 255.255.255.255 que es la IP de broadcast global. Por supuesto, se envía un datagrama UDP, 
+         con puerto de origen el 68 (cliente) y puerto de destino el 67 (servidor). Esta comunicación es
+          de tipo broadcast en la red, e internamente se puede configurar para recibir el OFFER por broadcast
+           o unicast, aunque generalmente es de tipo unicast en el OFFER. Si existe un servidor y está 
+           funcionando correctamente, le enviará una respuesta llamada DHCP OFFER. Este es el datagrama
+           de respuesta del servidor al cliente ante la petición de obtener parámetros por el protocolo.
+            En este caso la dirección IP de origen será la del propio servidor, que generalmente también
+             actúa de router, la IP de destino será la 255.255.255.255 también, el puerto de origen el 
+             67 y el puerto de destino el 68. En este paquete tendremos la dirección IP privada que se le 
+             puede proporcionar y se involucra a la dirección MAC del equipo. Esta comunicación es de tipo 
+             unicast generalmente, aunque de forma opcional puede ser broadcast. Una vez que el cliente 
+             recibe el OFFER, le enviará un DHCP REQUEST de vuelta. En este caso el cliente selecciona 
+             la configuración recibida por el OFFER y una vez más el cliente solicita la IP que indicó 
+             el servidor anteriormente. Esta comunicación también es broadcast, porque todavía no tiene 
+             una dirección IP privada válida. Por último, el servidor le enviará un DHCP ACK al cliente,
+              diciéndole que lo ha recibido correctamente e incluye toda la información que hayamos 
+              configurado en el servidor, como la duración de la conexión, información sobre los servidores
+               DNS y más. Con este último proceso se completan todos los pasos del proceso, el 
+               protocolo también esperará un cierto tiempo hasta que el cliente DHCP configure su interfaz
+                correctamente con los parámetros negociados. Una vez que el cliente obtiene la dirección 
+                IP, el cliente empezará a recibir información del protocolo ARP con todos los equipos que 
+                hay en la red local, con el objetivo de prevenir posibles conflictos de direcciones IP o 
+                superposición de grupos de direcciones de servidores DHCP. En caso de encontrar algún 
+                problema, el cliente enviará al servidor un mensaje DHCPDECLINE indicando que la dirección
+                 ya está en uso. Una vez que hemos visto cómo funciona el protocolo DHCP, vamos a explicar 
+                 qué ataques existen y cómo evitarlos.
+
+</td>
+    
+  </tr>
+  
+</table>
+        </div>
+
+    
     
     <div class="container202">
-      <p class="colo">COMO CONSEGUIR LA DIRECCION MAC EN TU DISPOSITIVO</p>
+      <p class="colo">El protocolo DHCP incluye varias formas de asignación de direcciones IP, 
+        dependiendo de la configuración que realicemos y el escenario, 
+        podremos usar una forma de asignación u otra</p>
         <div class="ejemplo">
             <div class="carta1">
-            <h2>GNU/Linux</h2>
-            <p><ul class="a101">
-  <li>Ve a la consola del sistema.</li>
-  <li>Escribe ifconfig.</li>
-  <li>El MAC es la dirección del campo HWaddr.</li>
-</ul></p>
+            <h2>Manual o estática</h2>
+            <p>El servidor DHCP nos permitirá configurar un listado de parejas IP-MAC con el 
+                objetivo de que siempre se le proporcione a un cliente una determinada dirección IP, 
+                y que esta dirección no cambie nunca.
+</p>
             
             </div>
             <div class="carta1">
-             <h2>Windows</h2>
-             <p> <ul class="a101">
-  <li>Pulsa las teclas Windows + R para abrir Ejecutar.</li>
-  <li>Escribe cmd y presiona Enter para ir al Símbolo de sistema</li>
-  <li>Escribe ipconfig /all.</li>
-  <li>En la entrada Dirección física te dirá la dirección MAC de tu ordenador.</li>
-</ul>
+             <h2>Automática</h2>
+             <p> el servidor DHCP se encarga de proporcionar una dirección IP al 
+                cliente que realiza la solicitud, y estará disponible para este cliente 
+                hasta que la libere. Existen routers que internamente están configurados
+                 para proporcionar direcciones IP privadas de forma secuencial, sin embargo,
+                  hay firmwares que están diseñados para proporcionar una dirección IP específica
+                   dentro del rango y que no es secuencial, en base a un algoritmo interno y la 
+                   dirección MAC que se haya conectado.
             </p>
             
             </div>
 
 
             <div class="carta1">
-            <h2>macOS</h2>
-            <p><ul class="a101">
-  <li>Abre las Preferencias del Sistema.</li>
-  <li>Haz click en Red, y en el panel de la izquierda selecciona en la que estás conectado.</li>
-  <li>Pulsa sobre el botón Avanzado en la parte inferior de la ventana.</li>
-  <li>Elige la pestaña Hardware, y en ella tienes tu MAC.</li>
-</ul></p>
+            <h2>Dinámica</h2>
+            <p>este método permite reutilización dinámica de las direcciones IP.</p>
                   
-             
+
+                
             </div>
 
              </div>
@@ -88,37 +153,11 @@ Una dirección MAC, a diferencia de una dirección IP, contiene también letras.
 
 <div class="nevo101" id="Hub">
             
-            <img class="aparece" src="images/gifmac.gif">
+            <img class="aparece" src="images/protocolodhcp.gif">
             
         </div>
 
-
-
-
-
-
-
-<div class="tienda101">
-        <div class="titulo">
-            <h2><span class="material-symbols-outlined">
-                shopping_cart_checkout Tienda <span class="material-symbols-outlined">
-                shopping_cart_checkout </h2>
-        </div>
-        <div class="objeto101">
-            <img class="compra" src="images/hub.jpg" width="250px" height="128px">
-            <p class="textf">Hub port USB 3.0 </p>
-            <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/tienda.html"><button class="final">Compra Ya</button></a>
-        </div>
-        <div class="objeto101">
-            <img  class="compra" src="images/switch.png" width="300px" height="157px">
-      <p class="textf">Switch D-Link</p>
-           <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/tienda.html"> <button class="final"  >Comprar Ya</button></a></div>
-
-        <div class="objeto101">
-            <img class="compra" src="images/router.png" width="300px" height="160px" >
-            <p class="textf">Router Inalámbrico</p>
-           <a href="https://jaaviaarques.github.io/hectordavidjuanjavi/tienda.html"> <button class="final" >Comprar Ya</button></a></div>
-
-       </div>
 </body>
+</body>
+    
 </html>
