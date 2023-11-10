@@ -26,6 +26,11 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
+paragraph{
+	font-family: Rubik, sans-serif;
+	    font-size: 23px;
+}
+	
 .container1011{
     
     background-image: url(images/protocolodhcp.JPG);
