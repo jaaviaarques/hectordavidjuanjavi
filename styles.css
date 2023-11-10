@@ -23,6 +23,16 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
+.container1011{
+    
+    background-image: url(images/protocolodhcp.JPG);
+    color: white;
+    font-size: 40px;
+    flex-direction: row;
+    padding: 250px 12px;
+    gap: 30px;
+    text-align: center;
+}
 h1.david {
   text-align: center;
   font-family: Spectral, serif;
