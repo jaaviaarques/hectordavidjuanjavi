@@ -350,15 +350,13 @@ divh2 {
 
 	.container101{
     
-    margin: auto;
-    display: flex;
+    background-image: url(images/imagendefondomac.JPG);
+    color: black;
+    font-size: 40px;
     flex-direction: row;
-    padding: 250px 300px;
+    padding: 250px 12px;
     gap: 30px;
-   
-    align-self: center;
-  justify-self: center;
-    
+    text-align: center;
 }
 .parrafo101 {
     display: flex;
