@@ -694,7 +694,12 @@ p.textocentral{
         
     }
     
-    
+    div.hat {
+	    padding: 20px;
+	    font-family: Spectral, serif;
+	    color: #F5A261;
+	    font-size: 30px;
+    }
     
     button.butondecompra:hover{
         background-image: url(images/WOW.gif);
