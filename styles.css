@@ -651,6 +651,10 @@ p.textocentral{
 
  }
 
+.container-lista:hover{
+	 transform: scale(1.2);
+}
+
  img.fimagenfinal{
     width: 500px;
     height: 700px;
@@ -682,6 +686,7 @@ p.textocentral{
         background-color: #00FF40;
         width: fit-content;
         margin: 50px 220px;
+	white-space: nowrap;
         
         
     }
@@ -691,4 +696,5 @@ p.textocentral{
     button.butondecompra:hover{
         background-image: url(images/WOW.gif);
         transform: scale(1.2);
+	white-space: nowrap;
     }
