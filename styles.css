@@ -700,6 +700,13 @@ p.textocentral{
 	    background-color: #F5A261;
 	    font-size: 23px;
     }
+  div.hat2 {
+	    padding: 20px;
+	    font-family: Spectral, serif;
+	    background-color: white;
+	    font-size: 23px;
+    }
+    
     
     button.butondecompra:hover{
         background-image: url(images/WOW.gif);
