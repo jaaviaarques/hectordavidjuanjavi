@@ -697,8 +697,8 @@ p.textocentral{
     div.hat {
 	    padding: 20px;
 	    font-family: Spectral, serif;
-	    color: #F5A261;
-	    font-size: 30px;
+	    background-color: #F5A261;
+	    font-size: 23px;
     }
     
     button.butondecompra:hover{
