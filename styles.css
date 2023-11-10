@@ -355,7 +355,7 @@ divh2 {
     flex-direction: row;
     padding: 250px 300px;
     gap: 30px;
-    background-color: FFE1B0;
+   
     align-self: center;
   justify-self: center;
     
@@ -367,7 +367,7 @@ divh2 {
     text-align: initial;
     max-width: 1400px;
     padding-left: 50px;
-    
+    background-color: FFCBA0;
 }
 
 .container202{
