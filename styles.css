@@ -858,9 +858,5 @@ border:1px solid black
     }
 
 
-    .fh2centrado:hover{
-        transform: scale(1.2);
-        color:whitesmoke;
-        border: 4px solid rgb(222,184,135);
-    }
+  
 
